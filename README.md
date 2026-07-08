@@ -1,4 +1,4 @@
-# Enterprise Claude CLI Multi-Agent Research System (MARS)
+# Multi-Agent Research System (MARS)
 
 This repository configures a modular, hub-and-spoke multi-agent system designed to run natively inside the **Claude CLI**. By leveraging Claude's native agent routing and delegation features, the system coordinates parallel information retrieval, structured analysis, and schema-validated synthesis.
 
