@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AnalysisTaxonomy",
+  "type": "object",
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_url": {
+            "type": "string"
+          },
+          "reliability": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "conflict_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["source_url", "reliability", "conflict_tags"]
+      }
+    },
+    "agent_id": {
+      "type": "string"
+    }
+  },
+  "required": ["categories", "source_relations", "agent_id"]
+}

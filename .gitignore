@@ -1,0 +1,17 @@
+# Claude Certified Architect (CCA-F) Files
+Brief.md
+brief.md
+todos.md
+
+# Common Node.js and system files to ignore
+node_modules/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+2026-07-08-155730-what-is-transformer-therory-about.txt
